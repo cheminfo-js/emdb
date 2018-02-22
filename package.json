@@ -1,11 +1,10 @@
 {
-  "name": "emdb",
+  "name": "mass-database-manager",
   "version": "0.0.0",
+  "private": true,
   "description": "Molecular formula database manager",
-  "main": "lib/index.js",
-  "module": "src/index.js",
+  "main": "src/index.js",
   "files": [
-    "lib",
     "src"
   ],
   "scripts": {
@@ -17,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheminfo-js/emdb.git"
+    "url": "git+https://github.com/cheminfo-js/mass-database-manager.git"
   },
   "keywords": [],
   "author": "Luc Patiny",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cheminfo-js/emdb/issues"
+    "url": "https://github.com/cheminfo-js/mass-database-manager/issues"
   },
-  "homepage": "https://github.com/cheminfo-js/emdb#readme",
+  "homepage": "https://github.com/cheminfo-js/mass-database-manager#readme",
   "jest": {
     "testEnvironment": "node"
   },
@@ -37,5 +36,8 @@
     "jest": "^22.1.1",
     "npm-run-all": "^4.1.2",
     "rollup": "^0.52.3"
+  },
+  "dependencies": {
+    "emdb": "^0.5.2"
   }
 }

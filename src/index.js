@@ -1,7 +1,7 @@
-/**
- * Returns a very important number
- * @return {number}
- */
-export default function myModule() {
-  return 42;
+'use strict';
+
+const DBManager=require('emdb');
+
+module.exports=function MassDatabaseManager() {
+  return new DBManager();
 }
