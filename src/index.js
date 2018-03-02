@@ -1,7 +1,6 @@
-'use strict';
 
-const DBManager=require('emdb');
+const DBManager = require('emdb');
 
-module.exports=function MassDatabaseManager() {
+module.exports = function MassDatabaseManager() {
   return new DBManager();
-}
+};
