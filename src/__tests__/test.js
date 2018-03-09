@@ -6,3 +6,9 @@ test('mass database manager', () => {
   dbManager.loadTest();
   expect(dbManager.databases.test).toHaveLength(100);
 });
+
+test('mass database utils', () => {
+  let Util = DBManager.Util;
+  expect(Util).toHaveProperty('MF');
+  expect(Util).toHaveProperty('IsotopicDistribution');
+});
