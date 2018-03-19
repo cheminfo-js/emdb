@@ -1,6 +1,6 @@
 {
   "name": "mass-database-manager",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": true,
   "description": "Molecular formula database manager",
   "main": "src/index.js",
@@ -32,7 +32,7 @@
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "cheminfo-tools": "^1.20.2",
-    "eslint": "^4.18.2",
+    "eslint": "^4.19.0",
     "eslint-config-cheminfo": "^1.17.2",
     "eslint-plugin-jest": "^21.14.1",
     "jest": "^22.4.2",
