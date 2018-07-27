@@ -1,6 +1,6 @@
 {
   "name": "mass-database-manager",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": true,
   "description": "Molecular formula database manager",
   "main": "src/index.js",
