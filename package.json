@@ -31,16 +31,16 @@
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "cheminfo-tools": "^1.20.2",
+    "cheminfo-tools": "^1.20.3",
     "eslint": "^4.19.0",
     "eslint-config-cheminfo": "^1.17.2",
-    "eslint-plugin-jest": "^21.14.1",
+    "eslint-plugin-jest": "^21.22.0",
     "jest": "^22.4.2",
     "npm-run-all": "^4.1.2",
     "rollup": "^0.52.3"
   },
   "dependencies": {
-    "emdb": "^0.6.2",
-    "eslint-plugin-import": "^2.9.0"
+    "emdb": "^0.6.3",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
